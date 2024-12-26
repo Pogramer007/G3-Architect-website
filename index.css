@@ -1,3 +1,78 @@
 /* font familly */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{font-family: "Work Sans", sans-serif;}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.btn-primari{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    color: #FFF;
+    border: 0px;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.nav-titel{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+/* banner-style */
+.baner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-titel{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #474747;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* responsiv */
+/* mobile */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }  
+}
+/* tablet or midium divice */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
+}
