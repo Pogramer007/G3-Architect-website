@@ -18,6 +18,11 @@ header{
 #text-color{
     color: #727272;
 }
+.section-titel{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -36,11 +41,7 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
-.nav-titel{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 /* banner-style */
 .baner-content{
     max-width: 800px;
