@@ -92,6 +92,28 @@ main{
     font-weight: 700px;
 }
 
+/* fact-section */
+.facts-card-continar{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-continar .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 40px;
+}
+.facts-card-continar .card-titel{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.facts-card-continar .card-stats{
+    font-size: 2.5rem;
+    color: #424242;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
 
 /* responsiv */
 /* mobile */
