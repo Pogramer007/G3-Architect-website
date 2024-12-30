@@ -115,6 +115,34 @@ main{
     margin-bottom: 10px;
 }
 
+/* future section style */
+
+.future-content .section-titel{
+    border-left: solid 5px #FF900E;
+    padding-left: 20px;
+}
+.feature{
+    margin-top: 130px;
+    display: flex;
+    gap: 146px;
+}
+.future-content .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.ten-years-bag{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-bag h2{
+    font-size: 65px;
+}
 
  /* sponsor style */
  .sponsors{
